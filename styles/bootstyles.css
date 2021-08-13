@@ -1,0 +1,88 @@
+/*Matthew Davies 8/12/2021
+  Positions the header and the footer realative to the mainbody */
+.header,  .footer   
+    {
+        position: relative;
+    }
+/*Changes the font color to white */
+.fontcolor
+    {
+        color: rgb(255, 255, 255);
+    }
+/*Centers text */
+.text-center 
+    {
+        text-align: center !important;
+    }
+/*This aligns the text the the rigth used on the internal web links */
+.text-right
+    {
+        text-align: right;
+    }
+/*This is the size that the footer needs to be*/
+.footersize 
+    {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+/*Makes the words upper case.*/
+.text-uppercase    
+    {
+        text-transform: uppercase !important;
+    }
+/*This is the font size for the main menu*/
+.fontsizelg
+    {
+        font-size: 50px;
+    }
+/*This just is the font size for the links */
+.fontsizesm
+    {
+        font-size: 30;
+    }
+/* This gives information for the header display size and colors*/
+.header
+    {
+        width: 100%;
+        height: 50px;
+        background-color:   rgba(9, 154, 190, 0.9); 
+        left: 0;
+        right: 0;
+    }
+/* This gives the display information for the main menu which includes the tableau charts */
+.mainmenu
+    {
+        top: 0px;
+        left: 0;
+        right: 0;
+        bottom: 50px;
+        position: absolute;
+        background-color: rgb(255, 218, 151);
+    }
+/* This gives the display information to the footer. */
+.footer    
+    {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color:  rgba(9, 154, 190, 0.9); 
+   
+    }
+/* This sets the text in line*/
+.inline
+    { 
+        display: inline;
+    }
+/* This places a text box that is light grey around the explainations of the tableau tables*/
+.boxed 
+    {
+        position: relative;
+        padding: 10px;
+        background-color: lightgrey;
+    }
+/* places text to the left*/
+.text-left
+    {
+        text-align: left;
+    }
